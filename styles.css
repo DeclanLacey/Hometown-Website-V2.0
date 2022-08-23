@@ -1,0 +1,681 @@
+/* very light grey #f5f3f4 */
+
+
+
+
+body {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #f8f9fa;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    
+    width: 100%
+    
+}
+
+/* /////// Images /////// */
+
+.header-img {
+    
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+}
+
+
+/* /////// Header //////// */
+
+.header-section {
+    
+   display: flex;
+   justify-content: space-between;
+   height: 260px;
+   flex-direction: column;
+   align-items: center;
+   background: #d3d3d3;
+    
+}
+
+.nav {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.nav-list {
+    
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.nav-item {
+    
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto Condensed', sans-serif;
+    
+}
+
+
+.active {
+    text-decoration: underline;
+}
+
+
+.nav-item-margin {
+    
+    margin-bottom: 20px;
+    
+}
+
+.nav-item:hover, 
+.nav-item:focus {
+    
+    
+    font-weight: 700;
+    
+}
+
+/* /////// Main content //////// */
+
+.main-title {
+    background-color: #6c757d;
+    background-image: url(images/Skyline) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+.title strong {
+    
+    font-weight: 700;
+    text-shadow: 0px 8px black;
+    font-size: 4.5rem;
+    
+}
+
+.title, .subtitle {
+    
+    font-weight: 300;
+    
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    max-width: 400px;
+}
+
+.title {
+    
+    font-size: 2.2rem;
+}
+
+
+
+/* ////////////////////activities-section/////////////////////// */
+
+
+.activities-section {
+    
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.border-bottom {
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.act-title {
+    
+    font-weight: 400;
+    font-size: 1.5rem
+    
+}
+
+.act-p {
+    
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+/* ////////////////////// footer ///////////////////// */
+
+.footer-img {
+    
+    width: 120px;
+    background-position: cover;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+    
+}
+
+
+.footer {
+    
+    height: 180px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background: #d3d3d3;
+}
+
+.footer-text {
+    text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    
+    padding: 0px;
+}
+
+.act-anchor {
+    
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    transition: font-weight 250ms;
+    
+}
+
+.act-anchor:hover, 
+.act-anchor:focus {
+    
+    
+    font-weight: 700;
+    
+}
+
+.bottom-anchor {
+    
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    transition: font-weight 250ms;
+}
+
+.bottom-link-text {
+    
+    font-weight: 400;
+}
+
+.bottom-anchor:hover, 
+.bottom-anchor:focus {
+    
+    font-weight: 700;
+    
+    
+}
+
+/* ///////////////////////PAGE 2//////////////////////////// */
+
+.adventure, .food, .sleep {
+    
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+
+.answer {
+    
+   padding-bottom: 0px; 
+}
+
+
+
+.container2 {
+    
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.btn {
+    
+    min-width: 200px;
+    border: none;
+    
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    transform: scale(1);
+    transition: transform 250ms
+}
+
+#btn-1 {
+    
+    background-image: linear-gradient(20deg, whitesmoke, #2e640d , whitesmoke);
+}
+
+#btn-2 {
+    
+    background-image: linear-gradient(20deg, whitesmoke, #dc2f02 , whitesmoke);
+}
+
+#btn-3  {
+    
+    background-image: linear-gradient(20deg, whitesmoke, #7b2cbf , whitesmoke);
+    
+}
+
+.btn:hover,
+.btn:focus {
+    
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+
+.question {
+    
+    font-weight: 300;
+    
+}
+
+.question-bold1 {
+    
+    color: #2e640d;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 0px 1px lightgray;
+    letter-spacing: 2px
+}
+
+.question-bold2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #dc2f02;
+    text-shadow: 0px 1px lightgray;
+    letter-spacing: 2px
+}
+
+.question-bold3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #7b2cbf;
+    text-shadow: 0px 1px lightgray;
+    letter-spacing: 2px
+}
+
+
+
+.img-page-2 {
+    
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+    
+}
+
+.sleep,
+.food,
+.adventure {
+    
+    background-position: center;
+    height: 100%;
+    background-color: #6c757d;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-blend-mode: multiply;
+    color: white;
+    background-size: cover;
+    height: 280px
+}
+
+.sleep {
+    
+    background-image: url(images/sleep);
+    
+}
+
+.food {
+    
+    background-image: url(images/food2);
+    
+    
+}
+
+.adventure {
+    background-image: url(images/adventure);
+    
+}
+
+#result-1 a,
+#result-2 a,
+#result-3 a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    transform: scale(1);
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-shadow: 0px 1px black;
+}
+
+#result-1 a:hover,
+#result-2 a:hover,
+#result-3 a:hover,
+#result-1 a:focus,
+#result-2 a:focus,
+#result-3 a:focus {
+    
+    font-weight: 400;
+    text-decoration: underline
+    
+    
+}
+
+
+/* ///////////////////////////////////Gallery section ////////////////////////////////////// */
+
+.gal-img {
+    
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    filter: drop-shadow(10px 10px 10px black);
+    border-radius: 5px;
+}
+
+
+/* //////////////////////// Gallery media query /////////////////////////////// */
+
+
+@media (min-width: 1060px) {
+    
+    .container-gal {
+        
+        display: flex;
+        
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////// main Media query ////////////////// */
+
+@media (min-width: 800px) {
+    
+    .act-img {
+       display: flex;
+       justify-content: center;
+       
+    }
+    
+    .act-p {
+        
+        margin-bottom: 60px;
+        
+    }
+    
+    .act-img {
+        margin-right: 40px;
+        
+    }
+    
+      .act-img-cover {
+        
+        width: 350px;
+        max-height: 280px;
+        object-fit: cover;
+    }
+    
+  
+    
+    .activities-section {
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px
+    }
+    
+    .act {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+
+    }
+    
+    .act-layout-2 {
+        
+         display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        
+    }
+    
+    
+    
+    .act-title {
+        text-align: left;
+    }
+    
+    .act-desc {
+        
+        width: 55%;
+    }
+    
+    .act-p {
+        padding-bottom: 80px;
+        margin-bottom: 60px;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+    
+    .main-title {
+        margin-bottom: 60px;
+        height: 900px;
+        height: 100vh;
+        min-height: 400px;
+    }
+    
+    .last-p {
+        
+        margin-bottom: 20px;
+    
+    }
+    
+    .act-img-layout-2 {
+        margin-right: 0px;
+        margin-left: 40px;
+        
+        
+    }
+    
+    .title {
+        
+        font-size: 3.4rem;
+    }
+    
+    
+    
+    .title strong {
+        
+        font-size: 6.5rem;
+    }
+    
+    .subtitle {
+        font-size: 2rem;
+        max-width: 600px;
+    }
+    
+    .header-section {
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+        
+        
+    }
+    
+    .nav {
+        
+        width: 500px;
+        margin-right: 60px;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        letter-spacing: 1px
+        
+    }
+    
+    .nav-item-margin {
+        
+        margin: 0px;
+    }
+    
+
+    
+    .header-img {
+        
+        margin: 0px 30px;
+
+    }
+    
+    .act-title-layout-2 {
+        
+        text-align: right;
+        
+    }
+    
+    .act-p-layout-2 {
+        
+        text-align: right;
+    }
+}
+
+
+/* ///////////////////PAGE 2 MEDIA QUERY////////////////////////////// */
+
+@media (min-width: 1060px) {
+    
+    .random-picker-section {
+
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    
+    .container2 {
+        
+    }
+   
+   .food, 
+   .sleep,
+   .adventure {
+       
+      margin-bottom: 25px;
+      width: 34%;
+      
+      
+      
+   }
+   
+   .adventure {
+       
+       padding-top: 9px
+   }
+   
+   .top-border-page2 {
+       
+       border-top: none;
+       padding-top: none;
+       margin-top: none;
+   }
+    
+.sleep,
+.food,
+.adventure {
+    
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 100%;
+    
+    
+}
+
+.btn {
+    
+    width: 20%;
+    margin: 0 auto;
+}
+
+.answer {
+    padding: 0px;
+    margin: 0px;
+}
+
+    
+}
